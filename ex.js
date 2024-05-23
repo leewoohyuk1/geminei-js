@@ -2,7 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyDu4WnHdcwdpmfwGbIpd34i01UAB3W1G_k");
+const genAI = new GoogleGenerativeAI("api_key");
 
 
 function fileToGenerativePart(path, mimeType) {
